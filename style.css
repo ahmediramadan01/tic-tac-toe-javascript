@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 4rem 5rem;
+    padding: 2rem 5rem;
 }
 
 /* Game Title */
@@ -33,9 +33,16 @@ body {
 .game-board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-image: url("./images/grid.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    gap: 0.4rem;
+    background-color: #000;
+    width: 36.8rem;
+    height: 36.8rem;
+}
+
+.cell {
+    background-color: #fff;
+    width: 12rem;
+    height: 12rem;
 }
 
 /* Display Section */
