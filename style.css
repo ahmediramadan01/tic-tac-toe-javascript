@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1rem 1rem 2rem;
     animation: fade-in 1000ms;
 }
@@ -72,6 +72,14 @@ body {
 }
 
 /* Display Section */
+
+.announcement {
+    text-align: center;
+    font-family: "Gochi Hand";
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
 
 .restart-text {
     text-align: center;
