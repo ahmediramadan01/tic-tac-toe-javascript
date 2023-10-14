@@ -1,0 +1,48 @@
+/* General Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 5rem;
+}
+
+/* Game Title */
+
+.game-title {
+    text-align: center;
+    font-family: "Pacifico";
+    font-size: 6.4rem;
+    font-weight: 400;
+}
+
+/* Game Board */
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-image: url("./images/grid.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Display Section */
+
+.restart-text {
+    text-align: center;
+    font-family: "Gochi Hand";
+    font-size: 2rem;
+    font-weight: 400;
+}
