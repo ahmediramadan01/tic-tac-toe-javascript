@@ -115,6 +115,7 @@ const gameController = (function () {
                 for (let i = 0; i < 9; i++) {
                     gameBoard.modifyBoard(i, "");
                 }
+                gameOver = false;
                 gameBoard.clearBoard();
                 currentPlayer = playerX;
                 announcementElement.textContent = currentPlayer === playerX ? "Player X's turn" : "Player O's turn";
