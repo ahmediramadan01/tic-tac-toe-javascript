@@ -111,7 +111,7 @@ const gameController = (function () {
         };
 
         const restartGame = function (event) {
-            if (event.key === "r") {
+            if (event.key === "r" || event.key === "R") {
                 for (let i = 0; i < 9; i++) {
                     gameBoard.modifyBoard(i, "");
                 }
